@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
+import Home from "./components/Home.js";
+import Spring from "./components/Spring.js";
+import JS from "./components/JS.js";
+import Header from "./components/Header.js";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <Router>
+        <div className="Menu">
+          <Header />
+        </div>
+        <div style={{ margin: '80px' }}>
+          <Route exact path="/" render={() => <Home />} />
+          <Route exact path="/spring" render={() => <Spring />} />
+          <Route exact path="/javascript" render={() => <JS />} />
+          <Route path="*" render={() => (<Redirect to="/" />)} />
+        </div>
+      </Router>
+    )
+  };
 }
 
 export default App;
