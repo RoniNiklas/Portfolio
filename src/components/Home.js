@@ -26,7 +26,7 @@ class Home extends Component {
           Huomaa kaikissa tapauksissa, että heroku nukuttaa sinne uploadattuja appeja, mikä johtaa niiden käynnistymisen hitauteen ja satunnaisesti jopa kaatumiseen ensimmäisellä yrittämällä. Herättyään apit toimivat normaalisti.
         </p>
         <p>
-          Tämän sivun source: INSER GITHUB LINK
+          Tämän sivun source: <a href="https://github.com/RoniNiklas/Portfolio"> https://github.com/RoniNiklas/Portfolio</a>
         </p>
       </div>
     );
