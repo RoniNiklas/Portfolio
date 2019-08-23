@@ -11,7 +11,7 @@ class JS extends Component {
             Kuvaus: Keskusteluappi, joka välittää reaaliajassa kommentteja samassa keskustelussa oleville, ja tallentaa keskustelut mongoDB:seen. Käyttäjä voi luoda keskusteluja, käyttää itse postaamaansa kuvaa keskustelun logona, vaihtaa selainnäkymän väriä ja kommentoida keskusteluja. Tein tämän viime talvena harjoitellakseni Socket.io kirjaston käyttöä. Projekti jäi hyvin keskeneräiseksi.
           </p>
           <p>
-            Käytetyt teknologiat: React, Node, Express, Mongoose, Redux ja Socket.io.
+            Käytetyt teknologiat: React, Node, Express, Mongoose, Redux, React-router-dom, Material-UI ja Socket.io.
           </p>
           <p style={{overflowWrap:"break-word"}}>
             Käytettävissä: <a href="https://roninchatapp.herokuapp.com/"> https://roninchatapp.herokuapp.com/</a>
