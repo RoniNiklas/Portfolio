@@ -13,7 +13,6 @@ class Home extends Component {
           Projects:
         </p>
         <ul>
-
           <li>
             <Link to="/spring">Spring Framework</Link>
           </li>
@@ -29,13 +28,9 @@ class Home extends Component {
           Note that Heroku puts apps to sleep, which might make them slow to load on first attempt.
         </p>
         <p>
-<<<<<<< HEAD
           Source to this page: <a href="https://github.com/RoniNiklas/Portfolio"> https://github.com/RoniNiklas/Portfolio </a>
           <br/>
           Note that this page uses React components instead of functions, whereas other React projects will use functions.
-=======
-          Tämän sivun source: <a href="https://github.com/RoniNiklas/Portfolio"> https://github.com/RoniNiklas/Portfolio</a>
->>>>>>> d4c4507628d99a9b4ff3ee244aa82a0faeaa1612
         </p>
       </div>
     );
