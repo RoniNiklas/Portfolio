@@ -25,9 +25,13 @@ class JS extends Component {
           <div style={{ maxWidth: "800px", width: "100%", marginLeft: "auto", marginRight: "auto", overFlowWrap: "break-word" }}>
             <h1> A collection of smaller JS projects </h1>
             <p>
-              Description: A collection of smaller React projects. Includes
-               - an app that displays a list of restaurants from a JSON and allows for sorting and selecting one randomly.
-               - an app that finds you a public transport route from where you are to the Eficode offices in Helsinki and displays it on a map.
+              Description: A collection of smaller React projects. Includes:
+              <p>
+                - an app that displays a list of restaurants from a JSON and allows for sorting and selecting one randomly.
+              </p>
+              <p>
+                - an app that finds you a public transport route from where you are to the Eficode offices in Helsinki and displays it on a map.
+               </p>
             </p>
             <p>
               Technologies: React, Node, Express.
