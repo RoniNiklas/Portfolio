@@ -17,7 +17,7 @@ class Home extends Component {
             <Link to="/spring">Spring Framework</Link>
           </li>
           <li>
-            <Link to="/javascript">MERN Stack</Link>
+            <Link to="/javascript">Javascript / MERN Stack</Link>
           </li>
           <li>
             <Link to="/python">Python Flask</Link>

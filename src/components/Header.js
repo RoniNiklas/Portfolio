@@ -10,7 +10,7 @@ class Header extends Component {
         <Toolbar style={{marginLeft:"auto", marginRight:"auto"}}>
           <Link to="/" style={{ color: 'white', padding: '10px' }}>Home</Link>
           <Link to="/spring" style={{ color: 'white', padding: '10px' }}>Spring Framework</Link>
-          <Link to="/javascript" style={{ color: 'white', padding: '10px' }}>MERN-stack</Link>
+          <Link to="/javascript" style={{ color: 'white', padding: '10px' }}>Javascript / MERN-stack</Link>
           <Link to="/python" style={{ color: 'white', padding: '10px' }}>Python</Link>
         </Toolbar>
       </AppBar>
