@@ -8,7 +8,7 @@ class JS extends Component {
           <div style={{ maxWidth: "800px", width: "100%", marginLeft: "auto", marginRight: "auto", overFlowWrap: "break-word" }}>
             <h1> ChatApp - project </h1>
             <p>
-              Description: A very much work-in-progress app for video-conferencing. It allows video conferencing for multiple participants, but the code is a bit sketchy and it only functions like 2/3rds of the time. It is currently more reliable on Firefox than other browsers. It allows for reliable real-time chatting in the conference rooms however.
+              Description: A very much work-in-progress app for video-conferencing. It allows video conferencing for multiple participants, but the code is a bit sketchy and it only functions like 2/3rds of the time. It is currently more reliable on Firefox than other browsers. It allows for reliable real-time chatting in the conference rooms however. It also allows for persistent purely textual conversations.
           </p>
             <p>
               Technologies: React, Node, Express, Mongoose, React-router-dom, React-bootstrap, MediaDevices API, WebRTC, and Socket.io.
